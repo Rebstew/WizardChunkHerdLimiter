@@ -1,0 +1,6 @@
+# frequency of the task in the scheduler, in ticks.
+# Multiply the desired amount of seconds by 20 (as there are 20 ticks per second at most)
+# The lesser this number, the more lag there will be!
+# Default = 15 minutes
+task-frequency: 18000
+worlds:

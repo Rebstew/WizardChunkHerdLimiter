@@ -1,0 +1,13 @@
+name: WizardChunkHerdLimiter
+main: net.rebstew.wizardchunkherdlimiter.WizardChunkHerdLimiter
+version: 1.0.0
+author: Twitter @Rebstew_
+api-version: 1.15
+permissions:
+commands:
+  wchunkherdlimiter:
+    description: Allows user to block a tile entity usage in a world or see which ones are blocked.
+    aliases: [wchl, wizardchunkherdlimiter, chunkherdlimiter, chl]
+    permission: wizardchunkherdlimiter.admin
+    permission-message: You are not allowed to use this command!
+    usage: "usage: /<command> <list|set> [world] [limit quantity of friendly creatures per chunk]"
